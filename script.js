@@ -65,7 +65,7 @@ function askForRDV(timestamp, skey){
 	
 	//displayConfirmModal( event.target.innerText );
 	
-	//ajaxCall("ajax_form_status", ajaxCall("ajax_form_status", "https://dz2fr.tlscontact.com/dz/ORN/action.php?process=multiconfirm&what=book_appointment&fg_id=()&result="+event.target.innerText+"&issuer_view=dzORN2fr");
+	//ajaxCall("ajax_form_status", ajaxCall("ajax_form_status", "https://dz2fr.tlscontact.com/dz/ORN/action.php?process=multiconfirm&what=book_appointment&fg_id=5627222&result="+event.target.innerText+"&issuer_view=dzORN2fr");
 	
 	displayConfirmModal( event.target.innerText, timestamp, skey ); 
 }
